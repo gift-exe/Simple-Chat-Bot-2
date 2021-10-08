@@ -1,0 +1,18 @@
+{"intents": [
+    { "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "good day", "mallam", "werey", "bishop"],
+      "response": ["hello", "hey", "Boss", "wetin dey sup?", "Any update?", "how e dey be?"]
+    },
+    { "tag": "goodbye",
+      "patterns": ["cya", "later", "anyhow na", "tor make i go find food", "i don move", "bye", "good bye"],
+      "response": ["bye", "make i go chop too", "aiit man", "omo me sef do tire", "good bye", "boss later na"]
+    },
+    { "tag": "age",
+      "patterns": ["how old are you", "what's your age", "when were you created", "date of birth"],
+      "response": ["I was just created boss"]
+    },
+    { "tag": "name",
+      "patterns": ["what should i call you", "what's your name", "name pls", "can you tell  me your name", "wetin be your name"],
+      "response": ["Mallam Bello", "Ninja", "Ai", "Don't wanna tell you"]
+    }
+]}
